@@ -1,0 +1,33 @@
+body{
+    background: url(../images/logo.jpeg);
+    background-size: cover;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+}
+
+.ativo{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 16px;
+}
+
+.cabecalho{
+    display:inside;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 5%;
+}
