@@ -1,3 +1,4 @@
+
 body{
     background: url(../images/logo.jpeg);
     background-size: cover;
@@ -5,29 +6,102 @@ body{
 
 li{
     display: inline;
-    padding: 15px;
+    padding: 30px;
+    text-align: center;
+    color:white;
+}
+ul{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(12, 109, 142);
+    
+}
+.topo {
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 205, 205);
+    padding-bottom:0px;
+    padding-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.telefone {
+    text-align: right;
 }
 
-.ativo{
-    color: black;
-    background-color: white;
-    border: 1px solid white;
-    padding: 6px 16px;
+.lista li a{
+    color: rgb(255, 255, 255);
 }
 
 .cabecalho{
+    color: black;
     display:inside;
     justify-content: space-between;
+
 }
 
 .cabecalho img{
+    display: inline;
     text-align: left;
     padding-top: 10px;
     padding-left: 10px;
+    width: 150px;
 }
 
 .titulo{
-    text-align: center;
+    text-align: cover;
     font-size: 55px;
-    padding-top: 5%;
+    padding-top: 0%;
+    padding-left: 30px;
+    margin-top: 0;
+    border: 100px;
+    display: inline;
 }
+.linha{
+    display:flex;
+    justify-content: space-around;
+  }
+  
+.coluna{
+    border:1px solid;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    
+  }
+  
+  .coluna h3{
+    background: #ccc;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }
+  
+  .coluna p{
+    line-height: 150%;
+    
+  }
+  .subtitulo {
+      font-size: 20px;
+  }
+  .conteudo {
+      font-size: 20px;
+  }
+  .especial {
+      width: 250px;
+      padding-top: 65px;
+  }
+  .redes-sociais img{
+    width: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+  .redes-sociais{
+        text-align: center;
+      background-color:#ccc;
+      
+  }
