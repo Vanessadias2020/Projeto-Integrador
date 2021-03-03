@@ -4,13 +4,13 @@ body{
     background-size: cover;
 }
 
-li{
+.lista li{
     display: inline;
     padding: 30px;
     text-align: center;
     color:white;
 }
-ul{
+.lista{
     text-align: center;
     color: white;
     padding-top: 30px;
@@ -41,7 +41,7 @@ ul{
 
 }
 
-.cabecalho img{
+.imagemcabecalho{
     display: inline;
     text-align: left;
     padding-top: 10px;
@@ -112,4 +112,26 @@ ul{
       height: 100px;
       padding-top: 150px;
       padding-bottom: 150px;
+  }
+  
+    
+   
+  .itens{
+      
+      
+  }
+
+  .ohsas{
+    text-align:justify;
+    font-size: 20px;
+    display: inline;
+  }
+  .imgIso{
+height: 150px;
+width: 250px;
+  }
+  .iso9000{
+      text-align:justify;
+      display: inline;
+
   }
