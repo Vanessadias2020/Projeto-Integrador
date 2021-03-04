@@ -33,25 +33,37 @@
                 <li><a href="publicacao.html">PUBLICAÇÕES</a></li>
                 <li><a href="certificacao.html">CERTIFICAÇÕES</a></li>
                 <li><a href="contato.html">CONTATO</a></li>
-            </ul>
-            <form id="Formulario">
-                <p>Formulario de Contato</p>
-                <br>
-                <label for="nome">Nome:</label>
-                <input id="nome" type="nome"> 
-                <br>
-                <label for="nome">Telefone:</label>
-                <input id="nome" type="nome"> 
-                <br>
-                <label for="nome">Email:</label>
-                <input id="nome" type="nome"> 
-                <br>
-                <button type="button" onclick="Enviar();">Enviar</button>
-                </form>
-                
+
+                <div id="form-main">
+                    <div id="form-div">
+                      <form class="form" id="form1">
+                        
+                        <p class="name">
+                          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nome" id="name" />
+                        </p>
+                        
+                        <p class="email">
+                          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </p>
+                        
+                        <p class="text">
+                          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Assunto"></textarea>
+                        </p>
+                        
+                        
+                        <div class="submit">
+                          <input type="submit" value="Enviar" id="button-blue"/>
+                          <div class="ease"></div>
+                        </div>
+                      </form>
+                    </div>
+
+
+           <br>     
 
            
 <footer>
+    <p class="espaco-maior"></p>
 <div class="redes-sociais">
     <p><strong> Visite nossas Redes Socias</p></strong>
     <img src="imagens/instagram.png">
