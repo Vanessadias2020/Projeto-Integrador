@@ -19,15 +19,17 @@ body{
     
 }
 .topo {
-    color: rgb(255, 255, 255);
+    color:black;
     background-color: rgb(205, 205, 205);
-    padding-bottom:0px;
-    padding-top: 10px;
+    padding-bottom:5px;
+    padding-top: 15px;
     display:flex;
     justify-content: space-between;
+    padding-right: 0px;
 }
 .telefone {
     text-align: right;
+    padding-right: 10px;
 }
 
 .lista li a{
@@ -303,14 +305,12 @@ input:focus, textarea:focus {
     margin-bottom: 500px;
 }
 .img-telefone{
-  padding-bottom:0px;
-    padding-top: 10px;
-    display:flex;
-    justify-content: space-between;
+  padding-right: 10px;
+    width: 20px;
+    height:20px;
 }
 .img-local{
-  padding-bottom:0px;
-    padding-top: 10px;
-    display:flex;
-    justify-content:end;
+  padding-right: 5px;
+    width: 20px;
+    height:20px;
 }
